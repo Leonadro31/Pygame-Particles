@@ -29,9 +29,6 @@ class Particle(object):
         self.y += self.gravity
         self.size -= 0.3
 
-        if self.size <= 0:
-            del self
-
 
 
 
